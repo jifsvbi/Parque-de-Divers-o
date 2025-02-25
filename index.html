@@ -14,12 +14,22 @@
             background-color: #74EDDC;
             text-align: center;
         }
-        .caixa-info h1, .caixa-info p {
+        .caixa-info h1, .caixa-info p, .caixa-info h2 {
             margin: 0;
         }
         .caixa-info p {
             font-size: 1.2em;
             font-weight: bold;
+        }
+        .caixa-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .caixa-info li {
+            margin: 10px 0;
+        }
+        footer p {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -28,22 +38,16 @@
     <!-- Cabeçalho com o nome do parque -->
     <header class="caixa-info">
         <h1>Parque Nacional dos Carecas</h1>
+        <p><strong>Inauguração:</strong> 5º de Dezembro de 2025</p>
     </header>
-
-    <!-- Seção sobre a inauguração -->
-    <section id="inauguracao" class="caixa-info">
-        <h2>Inauguração</h2>
-        <p><strong>Data:</strong> 5º de Dezembro de 2025</p>
-        <p><strong>Local:</strong> Pompeia, São Paulo, Brasil</p>
-    </section>
 
     <!-- Imagem representativa do parque -->
     <section id="imagem-parque">
         <img src="https://media.istockphoto.com/id/1438454334/pt/foto/typical-ride-at-the-oktoberfest-in-munich.jpg?s=612x612&w=0&k=20&c=_UekVGBRzGPf2fPd0fzd_NsyAi79b9gU3xbery0MjzU=" alt="Vista do Parque Nacional da Serra da Canastra" style="width:100%; height:auto;">
     </section>
-    
+
     <!-- Seção com links para redes sociais e ingressos -->
-    <section id="links">
+    <section id="links" class="caixa-info">
         <h2>Conecte-se conosco</h2>
         <ul>
             <li><a href="https://www.facebook.com/Carecas" target="_blank">Facebook</a></li>
@@ -53,7 +57,7 @@
     </section>
 
     <!-- Rodapé com informações adicionais -->
-    <footer>
+    <footer class="caixa-info">
         <p>&copy; 2025 Parque Nacional dos Carecas. Todos os direitos reservados.</p>
         <p>Telefone: (14) 92000-8032</p>
         <p>Email: contato@parquecarecas.com.br</p>
